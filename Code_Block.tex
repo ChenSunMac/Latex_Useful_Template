@@ -143,8 +143,27 @@ end
 
 
 \section{Figure and Table}
+Use the figure example below
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{FSM_1.png}
+	\caption{example pic}
+\end{figure}
+\vspace{5mm}
 
-
+Table Example
+\begin{table}[htbp!]
+	\centering
+	\label{my-label}
+	\begin{tabular}{lllllllll}
+		& Bit7                      & Bit6                     & Bit5                             & Bit4                      & Bit3                     & Bit2                       & Bit1                      & Bit0                      \\ \cline{2-9} 
+		\multicolumn{1}{l|}{00} & \multicolumn{1}{l|}{Wang} & \multicolumn{1}{l|}{Si}  & \multicolumn{1}{l|}{Tu}          & \multicolumn{1}{l|}{Shuo} & \multicolumn{1}{l|}{Wo}  & \multicolumn{1}{l|}{Cong}  & \multicolumn{1}{l|}{Wei}  & \multicolumn{1}{l|}{Jian} \\ \cline{2-9} 
+		\multicolumn{1}{l|}{01} & \multicolumn{1}{l|}{Guo}  & \multicolumn{1}{l|}{You} & \multicolumn{1}{l|}{Ru}          & \multicolumn{1}{l|}{Ci}   & \multicolumn{1}{l|}{Hou} & \multicolumn{1}{l|}{Yan}   & \multicolumn{1}{l|}{Wu}   & \multicolumn{1}{l|}{Chi}  \\ \cline{2-9} 
+		\multicolumn{1}{l|}{10} & \multicolumn{1}{l|}{Zhi}  & \multicolumn{1}{l|}{Tu}  & \multicolumn{1}{l|}{.}           & \multicolumn{1}{l|}{This} & \multicolumn{1}{l|}{is}  & \multicolumn{1}{l|}{Horse} & \multicolumn{1}{l|}{Fart} & \multicolumn{1}{l|}{,}    \\ \cline{2-9} 
+		\multicolumn{1}{l|}{11} & \multicolumn{1}{l|}{I}    & \multicolumn{1}{l|}{am}  & \multicolumn{1}{l|}{Comfortable} & \multicolumn{1}{l|}{said} & \multicolumn{1}{l|}{by}  & \multicolumn{1}{l|}{Zhuge} & \multicolumn{1}{l|}{Cun}  & \multicolumn{1}{l|}{Fu}   \\ \cline{2-9} 
+	\end{tabular}
+	\caption{A pseudo $4\times 8$ bit Memory}
+\end{table}
 
     
 %    \newpage
