@@ -1,0 +1,5 @@
+EMTP-RV Training
+(The reference for power systems transients):
+http://emtp-software.com/
+---------------------------------------------------
+Frequency range: DC - MHz
